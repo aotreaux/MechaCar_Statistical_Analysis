@@ -16,6 +16,7 @@ Summary Statistics on Suspension Coils
 
 ![image](https://user-images.githubusercontent.com/105396400/186569648-2c534863-19b7-4039-8807-922f3aa946d1.png)
 ![image](https://user-images.githubusercontent.com/105396400/186569691-d0987c8e-6f10-41dd-8398-ff2131d756ae.png)
+
 The difference for the entire dataset shows that the current manufacturing data meets the 100 pounds per square inch difference limitation. However, when separated into three batches, the third batch shows a higher variance. Due to its randomness, there is a possiblity that a third of the batch does not meet the required suspension coils requirement.
 
 T-Tests on Suspension Coils
