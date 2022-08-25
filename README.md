@@ -1,16 +1,16 @@
 # MechaCar_Statistical_Analysis
 
 Project Objective
-To analyze metrics that can affect the manufacturing of a new car prototype and compare vehicle performance across different manufacturer lots. These metrics include vehicle length, weight, spoiler angle, ground clearance, AWD capabilities, MPG, and PSI.
+To analyze data points that hs the ability to alter the manufacturing of a new car prototype and compare vehicle metrics across different manufacturer vehicles. These metrics include vehicl, weight, spoiler angle, ground clearance, AWD capabilities, MPG, and PSI.
 
 Liner Regression to Predict MPG
 ![image](https://user-images.githubusercontent.com/105396400/186569301-9a886f1f-b606-4caa-ba29-c9b7487b54f1.png)
 
 3 Key Takeaways:
 
-Variance of a non-random variable is usually 0. Given this fact, the intercept, vehicle_length, and ground_clearance coeeficients can be said to provide a non-random amount of variance to the mpg values.
-At a significance level of 0.05, we are able to reject the null hypothesis because of the extremely small p-value. The null hypothesis of a linear regression states that the slope (β1) is equal to 0. However, if we reject the null hypthesis, we're stating that alternative (β1 ≠ 0) is true. Thus, proving that the slope is not 0.
-Multiple R-squared increases as more variables are passed through the regression. However, adjusted R-squared controls against this increase, and adds penalties for the number of predictors in the model, thus making it a more accurate predictor of how effective the linear model is. An adjusted R-square of 0.6825 concludes that this linear model predicts the mpg of MechaCar prototypes relatively well.
+Variance of a non-random variable is usually 0. The intercept, vehicle_length, and ground_clearance coeeficients can provide a non-random amount of variance to the mpg values.
+At a significance level of 0.05, we can reject the null hypothesis because of the extremely small p-value. The null hypothesis of a linear regression states that the slope is equal to 0. However, if we reject the null hypthesis, we're stating that alternative is true. Proving that the slope is not 0.
+R-squared increases as more variables are passed through the regression. Adjusted R-squared controls against this increase, adds penalties for the number of predictors in the model, therefore making it a more accurate predictor of how effective the linear model is. An adjusted R-square of 0.6825 concludes this linear model predicts the mpg of MechaCar prototypes relatively well.
 
 Summary Statistics on Suspension Coils
 
@@ -36,10 +36,10 @@ However, Lot 3, not surprisingly is a different scenario. Here the sample mean i
 
 Study Design: MechaCar vs. Competition
 
-Another statistical study that can be performed to determine MechaCar's standing against its competition is a linear regression on city and highway fuel efficiency. Gasoline is expensive nowadays, and it is an important feature that many consumers look at when purchasing a new car. The metrics that can be included in this analysis are:
+An additional statistical analysis that can be undertaken to determine MechaCar's position against its competition is a linear regression on fuel efficiencies realted to city and highway travel. Fuel for vehicles is an important consideration that many consumers examine when purchasing a new car. The data that can be included in this analysis are:
 
-City and highway fuel efficiency: dependent variable
-Horse power: independent variable
 Vehicle weight: independent variable
+Horse power: independent variable
+City and highway fuel efficiency: dependent variable
 AWD capabilities: independent variable
-MPG: independent variable In addition to the MPG, AWD, and vehicle weight data that we already have, we would have to collect fuel efficiency and horse power data for the sample data set at hand.
+MPG: independent variable 
