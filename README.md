@@ -21,7 +21,6 @@ The difference for the entire dataset shows that the current manufacturing data 
 
 T-Tests on Suspension Coils
 
-There is a summary of the t-test results across all manufacturing lots:
 ![image](https://user-images.githubusercontent.com/105396400/186570062-492bf424-4f1d-4804-90c0-8900c2e5607c.png)
 
 From here we can see the mean of the sample is 1498.78. With a p-Value of 0.06, which is higher than the common significance level of 0.05, there is not enough evidence in supporting the rejection of the null hypothesis. The mean of all three of these manufacturing batches is statistically similar to the presumed population mean.
